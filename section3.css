@@ -1,0 +1,50 @@
+.section3{
+  background-color: #3a3633;  
+}
+
+.section3 #grey{
+  padding:  30px 20px 70px 20px;
+  z-index:-1;
+}
+
+.section3 #gradient{
+  text-align: right;
+  background-image: linear-gradient(-90deg, rgb(29, 58, 219), rgb(217, 218, 243));
+  margin: 0 auto; 
+  padding:  30px 20px 70px 20px;
+  z-index:2;
+  
+}
+
+.section3 #animationBox{
+  border: 4px solid white;
+  width: 25%;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+
+}
+.section3 #animationBox b{
+  color: red;
+}
+
+#animationBox {
+    position: absolute;
+    left: 60px;
+    width: 25%;
+    background: #3a3633;
+    
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+#animationBox:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    left: calc(100% - 102px); 
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="section1.css">
+    <link rel="stylesheet" type="text/css" href="section2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+ 
+</head>
+<body>
+  <div class="Navbar">
+    <div class="NavbarLink NavbarLogo">
+      <a href="#top">
+        <img src="imgs\logo.svg" alt="logo" >    
+      </a>
+    </div>
+    <div class="NavbarLink NavbarBarsLogo">
+      <a class="myIcon"><i class="fa fa-bars"></i></a>
+    </div>
+    <nav class="NavbarItems NavbarItemsRight">
+      <div class="NavbarLink underlined">
+        <a href="#feature">Features</a>
+      </div>
+      <div class="NavbarLink underlined">
+        <a href="#adv">Advantages</a>
+      </div>
+      <div class="NavbarLink underlined">
+        <a href="#gallery">Gallery</a>
+      </div>
+      <div class="NavbarLink underlined dropbtn">
+        <a href="#products">Products</a>
+        <div class="dropdown-content">
+          <a href="https://www.spacex.com/falcon9" target="_blank">Falcon 9</a>
+          <a href="#">Model S</a>
+          <a href="#">iPhone</a>
+        </div> 
+      </div>
+    </nav>
+  </div>
+  </br> 
+  <div class="flex-container" name="top">
+      <section class="container">
+        <div class="item-a"><h1>Introducing Falcon 9</h1></div>
+        <div class="item-b"><h2>We make dreams come true</h2></div>
+        <div class="item-c"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. </p></div>
+          <div class="item-d">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. </p>
+          </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="flex-grid-thirds" id="feature">
+    <div class="col" id="rcorners">
+      <a class="logo1" alt="logo1"> </a>
+      <b>Amazing feature 1</b></br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </p>
+      <button class="button">Get It</button>
+    </div>
+    <div class="col" id="rcorners">
+      <a class="logo2" alt="logo2"> </a>
+      <b>Amazing feature 2</b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </p>
+      <button class="button">Sell It</button>
+    </div>
+    <div class="col" id="rcorners">
+      <a class="logo3" alt="logo3"> </a>
+      <b>Amazing feature 3</b>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </p>
+      <button class="button">Do It</button>
+    </div>
+  </div>
+
+  <div class="text" id="adv">
+    <h1>Some cool text</h1>
+    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+  </div>
+  <div>
+    <button class="cool">
+      <h4 style="color: red">This looks cool</h4>
+      <h5 style="color: white"> Hover me if you like random animations</h5>
+    </button>
+  </div>
+  <div class="text1">
+    <h1>Slick gradient</h1>
+    <h4>Lorem ipsum?</h4>
+  </div>
+
+  <div class="gallery" id="gallery">  
+    <div style="overflow: hidden;" class="content_img">    
+      <img src="imgs\tesla.jpg" class="product-img zoom">   
+      <div>Image 1 Text</div>
+    </div>
+
+    <div style="overflow: hidden;" class="content_img">   
+      <img src="imgs\procat.jpg" class="product-img zoom ">
+      <div>Image 2 Text</div>
+    </div>
+
+    <div style="overflow: hidden;">
+      <img src="imgs\hyperloop.jpg" class="product-img zoom">
+    </div>
+    <div style="overflow: hidden;">
+      <img src="imgs\sneakycat.jpg" class="product-img zoom">
+    </div>
+    <div style="overflow: hidden;">
+      <img src="imgs\bfr.jpeg" class="product-img zoom">
+    </div>
+    <div style="overflow: hidden;">
+      <img src="imgs\funnycat.jpg" class="product-img zoom">
+    </div>
+  </div>
+
+  <form class="registration-form">
+    <div>
+      <label style="color: black">Register to our mailing list:</label>
+      <div style="display: flex">
+        <input type="email" required class="text-field" />
+        <input type="image" id="send" src="imgs\send.svg" alt="Submit">
+      </div>  
+          <div>
+            <label class="checkbox-label">
+              <input type="checkbox"> Send me daily cat images
+            </label>
+          </div>
+    </div>
+    </form> 
+
+
+  <hr> 
+
+  <div class="grid">
+    <div>
+        <div class="grid-item">About us</div>
+        <div class="grid-item">Privacy policy</div>
+        <div class="grid-item">Legal notes</div>
+        <div class="grid-item">Copyright</div>
+    </div>
+    <div>
+      <div class="grid-item">About us</div>
+      <div class="grid-item">Privacy policy</div>
+      <div class="grid-item">Legal notes</div>
+      <div class="grid-item">Copyright</div>
+    </div>
+    <div>
+      <div class="grid-item">About us</div>
+      <div class="grid-item">Privacy policy</div>
+      <div class="grid-item">Legal notes</div>
+      <div class="grid-item">Copyright</div>
+    </div>
+    <div>
+      <div class="grid-item">About us</div>
+      <div class="grid-item">Privacy policy</div>
+      <div class="grid-item">Legal notes</div>
+      <div class="grid-item">Copyright</div>
+    </div>
+    </div>
+
+</body>
+
+</html>

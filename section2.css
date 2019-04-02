@@ -1,0 +1,76 @@
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-around;
+  padding:40px;
+  background-color: white ;
+  background-size: 300px 100px, cover;
+  /*The flexbox items will be distributed among multiple lines if needed.*/
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.flex-grid-thirds .col {
+  width: 32%;
+  justify-content: center; 
+}
+
+#rcorners {
+  border-radius: 4px;
+  border: 2px solid rgba(211,211,211,0.5);/*#3a3633;*/
+  padding: 20px; 
+  width: 300px;
+  height: auto;  
+  color: #3a3633;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.logo1 {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url('imgs/icon1.svg');
+  background-size: 100px 82px; 
+  /*to align logo to center*/ 
+  margin: 0 auto;
+}
+
+.logo2 {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url('imgs/icon2.svg');
+  background-size: 100px 82px; 
+  margin: 0 auto; 
+}
+
+.logo3 {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url('imgs/icon3.svg');
+  background-size: 100px 82px;  
+  margin: 0 auto;
+}
+
+.button {
+  border: none;
+  background-color: #3a3633;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 70%;
+  height: 30px;
+  display:inline-block;
+  margin-bottom: 5px;
+  align-self: end;
+}
+
+
